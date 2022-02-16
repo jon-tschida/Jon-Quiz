@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <!-- End Import Fonts -->
+    <link href="style.css" rel="stylesheet">
+    <title>Jon Quiz</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Welcome to the Jon Quiz</h1>
+        <br>
+        <p style="font-size: 20px;">You must get the answer correct before being allowed to go to the next question</p>
+        <p style="font-size: 20px;">You can attempt each question as many times as you like.</p>
+    </div>
+    <div class="quiz">
+        <div class="container">
+            <div id="question-container">
+                <div id="question" class="hidden">Question</div>
+                <div class="button-container hidden">
+                    <div id="answer-buttons" class="btn-grid">
+                        <button class="button answer0">Answer 1</button>
+                        <button class="button answer1">Answer 2</button>
+                        <button class="button answer2">Answer 3</button>
+                        <button class="button answer3">Answer 4</button>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button id="start-button" class="start-button button">Start</button>
+
+                    <button id="next-button" class="next-button button hidden">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
