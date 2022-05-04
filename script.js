@@ -39,8 +39,8 @@ const questions = [
   {
     question: `Where was I born?`,
     answers: [
-      { text: `Omaha, NE`, correct: true },
-      { text: `St. Paul, MN`, correct: false },
+      { text: `Omaha, NE`, correct: false },
+      { text: `St. Paul, MN`, correct: true },
       { text: `Boston, MA`, correct: false },
       { text: `Fort Myers, FL`, correct: false },
     ],
